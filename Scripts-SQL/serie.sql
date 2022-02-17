@@ -1,0 +1,19 @@
+
+CREATE TABLE IF NOT EXISTS Serie (
+	nom VARCHAR(50) NOT NULL, 
+	description TEXT NOT NULL,
+	
+	PRIMARY KEY (nom)
+) engine = InnoDB; 
+
+INSERT INTO `Serie` (`nom`, `description`) VALUES
+('Black Mirror', 'Au cours des dix dernières années, les nouvelles technologies ont transformé de nombreux aspects de notre vie, avant même d''avoir pu dire stop ou de les remettre en question. Dans chaque foyer, un écran plasma, un ordinateur, un smartphone...un écran noir de notre existence au 21e siècle. Black Mirror s''apparente à une nouvelle version britannique de The Twilight Zone, avec des histoires indépendantes qui exploitent notre malaise collectif au sujet du notre monde moderne.'),
+('Breaking Bad', 'La vie de Walter White, professeur de chimie dans un lycée, est bouleversée lorsqu''il apprend qu''il est atteint d''un cancer en phase terminale. Une nouvelle qui le sort de la torpeur de son quotidien et l''amène à prendre des mesures radicales pour anticiper l''avenir de sa famille.'),
+('Casa de Papel', 'El Profesor est le cerveau d''un groupe de huit criminels dont l''ambition est de réaliser le braquage parfait : pourquoi attaquer une bijouterie ou une banque, quand on peut s’infiltrer dans l’antre des antres, l’usine de la Monnaie et des Timbres, et fabriquer son propre argent Pendant 11 jours, l’usine va ainsi être aux mains du groupe, avec 65 otages à l’intérieur. La guerre des nerfs avec les forces d''intervention commence alors...'),
+('Game of Thrones', 'Il y a très longtemps, à une époque oubliée, une force a détruit l''équilibre des saisons. Dans un pays où l''été peut durer plusieurs années et l''hiver toute une vie, des forces sinistres et surnaturelles se pressent aux portes du Royaume des Sept Couronnes. La confrérie de la Garde de Nuit, protégeant le Royaume de toute créature pouvant provenir d''au-delà du Mur protecteur, n''a plus les ressources nécessaires pour assurer la sécurité de tous. Après un été de dix années, un hiver rigoureux s''abat sur le Royaume avec la promesse d''un avenir des plus sombres. Pendant ce temps, complots et rivalités se jouent sur le continent pour s''emparer du Trône de Fer, le symbole du pouvoir absolu.'),
+('Mr. Robot', 'Elliot est un jeune programmeur anti-social qui souffre d''un trouble du comportement et de dépression chronique. Il est ingénieur en cyber-sécurité le jour et hacker justicier la nuit. Elliot doit faire un choix lorsque le mystérieux chef d''un groupe underground de hackers le recrute pour détruire la société qu''il est payé pour protéger. Contraint par ses convictions personnelles, Elliot a du mal à résister à la chance de détruire les PDG''s de multinationales qui, selon lui, dirigent (et ruinent) le monde.'),
+('Peaky Blinders', 'À Birmingham, en Angleterre, l''année 1919 est marquée par les exactions de l''impitoyable Tommy Shelby, un jeune chef de la pègre ivre de son désir de domination.'),
+('Sherlock', 'Les aventures modernisées du plus célèbre des enquêteurs : Sherlock Holmes et de son ami et assistant, le Dr Watson. Un remake vivant et drôle du classique de Arthur Conan Doyle revisité par Steven Moffat.'),
+('Stranger Things', 'Quand un jeune garçon disparaît, une petite ville découvre une affaire mystérieuse, des expériences secrètes, des forces surnaturelles terrifiantes... et une fillette.'),
+('The Witcher', 'Le sorceleur Geralt, un chasseur de monstres mutant, se bat pour trouver sa place dans un monde où les humains se révèlent souvent plus vicieux que les bêtes.'),
+('Under the Dome', 'Les habitants d’une petite communauté se réveillent un matin, coupés du monde et piégés dans la ville à cause d’un immense dôme transparent. Certains tenteront, de manière dissimulée, de tirer profit de cette situation inquiétante et inexpliquée, afin de prendre le pouvoir.');
